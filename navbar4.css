@@ -1,0 +1,63 @@
+/* common css codes start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+/* common css codes end here */
+/* nav css codes start here */
+nav{
+    background-color: #02918c;
+}
+
+/* nav css codes end here */
+/* container css codes start here */
+.container{
+    margin: auto;
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* container css codes end here */
+/* menu css codes start here */
+.menu{
+    width: 85%;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.menu ul li a{
+    color: #fff;
+    font-size:12px;
+    font-weight:800;
+    padding: 26px 25px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+/* menu css codes end here */
+/* logo css codes start here */
+.logo{
+    width: 15%;
+}
+.logo img{
+    display: block;
+}
+/* logo css codes end here */
+/* hover css codes start here */
+.container .menu ul li:hover a{
+    background-color: #cfc91d;
+    color: #0b1016;
+}
+/* hover css codes end here */
